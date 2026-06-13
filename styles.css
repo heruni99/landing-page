@@ -140,3 +140,29 @@ body {
     font-size: 16px;
     color: #4B5563; /* Medium grey subtle contrast for card text */
 }
+
+.quote-block {
+    background-color: var(--bg-quote);
+    padding: 80px 25%; /* Thicker padding horizontally keeps the quote narrow */
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: var(--text-dark-main);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: var(--text-dark-main);
+    font-weight: 900;
+    align-self: flex-end; /* Magic line: shifts just the author item to the far right! */
+    margin-top: 10px;
+}
