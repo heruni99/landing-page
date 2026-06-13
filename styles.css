@@ -166,3 +166,56 @@ body {
     align-self: flex-end; /* Magic line: shifts just the author item to the far right! */
     margin-top: 10px;
 }
+
+.cta-block {
+    padding: 80px 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-banner {
+    background-color: var(--primary-blue);
+    width: 100%;
+    padding: 40px 80px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h3 {
+    color: var(--text-light-main);
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.cta-text p {
+    color: var(--text-light-secondary);
+    font-size: 16px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--text-light-main);
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid var(--text-light-main);
+    padding: 6px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Footer rules */
+footer {
+    background-color: var(--bg-dark);
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: var(--text-light-secondary);
+    font-size: 14px;
+}
